@@ -80,8 +80,8 @@ The **`@Metadata.layer`** annotation is specified at the top. The name of the BO
     @UI: {
       headerInfo: { typeName: 'Travel',
                     typeNamePlural: 'Travels',
-                    title: { type: #STANDARD, label: 'Travel', value: 'TravelID' } },
-      presentationVariant: [{ sortOrder: [{ by: 'TravelID', direction:  #DESC }] }] }
+                    title: { type: #STANDARD, label: 'Travel', value: 'TravelID' } } }
+      //presentationVariant: [{ sortOrder: [{ by: 'TravelID', direction:  #DESC }] }] }
 
     annotate view ZC_RAP_Travel_#### with
     {
